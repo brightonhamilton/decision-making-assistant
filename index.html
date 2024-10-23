@@ -1,0 +1,39 @@
+echo "# decision-making-assistant" >> README.md
+git init
+git add .
+git commit -m "Initial commit with math function"
+git remote add origin https://github.com/username/repository-name.git
+git push -u origin main
+git clone https://github.com/username/repository-name.git
+cd repository-name
+pip install -r requirements.txt
+# Import the function from the module
+from module_name import calculate_area
+
+# Use the function
+result = calculate_area(5)
+print(f"The area is: {result}")
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+
+# Calling the function
+result_add = add(5, 3)
+result_mult = multiply(5, 3)
+
+print(f"Addition: {result_add}, Multiplication: {result_mult}")
+git add .
+git commit -m "Modified math function"
+git push origin main
+# Function to calculate the factorial of a number
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Calling the factorial function
+result = factorial(5)
+print(f"The factorial of 5 is: {result}")
